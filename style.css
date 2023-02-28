@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&family=Varela+Round&display=swap');
+
+body{
+    background-color: antiquewhite;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+nav ul li{
+    padding: 0 12px;
+}
+.brand img{
+    width: 44px;
+ 
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 65px;
+    background-color: black;
+    color: white;
+}
+
+.text{
+    margin-left: -6px;
+    font-weight: 600;
+}
+
+.container{
+    min-height: 60vh;
+    background-color: black;
+    color: white;
+    font-family: 'Varela Round', sans-serif;
+    display: flex;
+    margin: 23px auto;
+    width: 60%;
+    border-radius: 12px;
+    padding: 24px;
+    background-image: url('https://w0.peakpx.com/wallpaper/1003/997/HD-wallpaper-liquifying-thoughts-listening-music-girl-color-mysterious-abstract.jpg');
+    
+}
+.bottom{
+    position: sticky;
+    height: 100px;
+    background-color: black;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+   
+}
+#myProgressBar{
+    width: 80vw;
+    color: rgb(12, 12, 117);
+    -webkit-appearance:none;
+    appearance:none;
+    height: 10px;
+    background-color: #ccc;
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.icon{
+    margin-top: 14px;
+    cursor: pointer;
+}
+
+
+.head{
+    align-items: center;
+    margin-top: 20px;
+    float: right;
+}
+.songItem img,.songlistplay{
+   
+    height: 300px;
+    width: 300px;
+    margin-left: 450px;
+    object-fit: cover;
+    float: right;
+    border-radius: 30px;
+}
+.songlistplay{
+    margin-top: -20px;
+}
+
+.songInfo {
+    position: absolute;
+    left: 0;
+   
+}
+
+.songInfo img{
+    height: 70px;
+}
